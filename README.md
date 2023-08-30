@@ -108,6 +108,7 @@ Payload
 Xss via upload file
 
 There are two modes for xss in upload file
+
 1_ Through the file name
 Payload
 
