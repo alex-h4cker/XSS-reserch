@@ -78,6 +78,8 @@ Vulnerabilities that convert to xss:
     host header injection 
     Request smuggling 
     File Upload
+    open redirect
+    crlf
 
 css injection
 
@@ -92,6 +94,20 @@ Payload:
 HTML injecton
 
 HTML Injection vulnerability means injecting malicious HTML code into web pages or web applications. This vulnerability allows hackers to inject malicious HTML code into the page and make changes to the structure and display of the page. These codes may include adding new HTML elements, changing content, and hiding elements
+
+open redirect
+
+Convert open redirect to xss
+Payload
+
+    //javascript:alert(origin)
+
+crlf
+
+Convert crlf to xss
+Payload
+
+    %0d%0a<script>alert(origin)</script>
 
 XSSJacking
 
